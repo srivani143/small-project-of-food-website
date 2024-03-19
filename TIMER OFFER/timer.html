@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TIMER OFFER FOR GIfts</title>
+	<link rel="stylesheet" type="text/css" href="github.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="box">
+			<div class="close_button">+</div>
+			<div class="text_box">
+				<p>Get 60% offer</p>
+				<p>spceially for you mobile.</p>
+			</div>
+			<p style="font-size: 20px; color: #fff; font-weight: bold; margin-bottom: 10px;">OFFER END IN</p>
+			<div class="timer_box">
+				<div class="minutes_box">
+					<p class="min">5</p>
+					<p style="font-size: 20px;">min</p>
+				</div>
+				<span>:</span>
+				<div class="second_box">
+					<p class="sec">5</p>
+					<p style="font-size: 20px;">sec</p>
+				</div>
+			</div>
+			<button type="button">Get The Offer Now<span class="hover_effect"></span></button>
+		</div>
+	</div>
+
+	<script>
+		let close_button = document.querySelector(".close_button");
+		let minute_value = document.querySelector(".min");
+		let second_value = document.querySelector(".sec");
+		let main_box = document.querySelector(".main_box");
+		let box = document.querySelector(".box");
+
+		// seconds,
+		let s = 60;
+
+		// minute,
+		let m = 5
+
+		function offer_end_timer(){
+			interval = setInterval(()=>{
+				console.log("seconds");
+				s--;
+				second_value.innerHTML = s;
+				if(s == 0){
+					m--;
+					minute_value.innerHTML = m;
+					s = 60;
+				} 
+				if(m == 0){
+					clearinterval(interval);
+				}
+			},1000);
+
+
+			// pop up
+			window.onload = function(){
+				setTimeout(()=>{
+					main_box.classlist.add("main_box_active");
+					box.classList.add("active");
+					offer_end_timer();
+				},2000);
+			}
+			close_button.onclick = function(){
+				main_box.classlist.remove("main_box_active");
+				box.classList.remove("active");
+			}
+
+</script>
+</body>
+</html>

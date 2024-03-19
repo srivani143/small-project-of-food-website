@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OTP in JS</title>
+	<link rel="stylesheet" type="text/css" href="naayak.css">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+	<div class="form">
+		<h1>OTP Using JS</h1>
+		<input type="email" id="email" placeholder="ENTER EMAIL...">
+		<div class="otpverify">
+			<input type="text" id="otp_inp" placeholder="ENTER THE OTP TO YOUR EMAIL...">
+			<button class="btn" id="otp-btn">Verify</button>
+		</div>
+		<button class="btn" onclick="SendOTP()">SendOTP</button>
+	</div>
+	<script src="emailotp.js"></script>
+</body>
+</html>

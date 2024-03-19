@@ -1,0 +1,569 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400;1,900&display=swap');
+
+:root{
+	--orange: #ff8e28;
+	--greenother: #3f6602;
+	--yellow: #ffe001;
+	--green: #00a850;
+	--whitish: #e5e4e2;
+}
+
+*{
+	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all .2s linear;
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	/*scroll-behavior: soomth;
+	scroll-padding-top: 6rem;*/
+}
+
+header{
+	position: fixed;
+	padding: 1.5rem 7%;
+	background-color: white;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	z-index: 1000;
+}
+.logo h1{
+	color: var(--green);
+	font-size: 25px;
+}
+.logo i{
+	display: block;
+	font-size: 25px;
+	color: #00a850;
+}
+.navbar a{
+	font-size: 1.5rem;
+	color: var(--green);
+	padding: 0.5rem;
+	margin-left: 1.5rem;
+	position: relative;
+}
+.navbar a::after{
+	content: " ";
+	background-color: var(--green);
+	width: 0;
+	height: 1px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	transition: 0.5s;
+}
+.navabr a:hover::after{
+	width: 100%;
+}
+
+.icons{
+	font-size: 2.5rem;
+}
+.icons div{
+	margin-left: 1rem;
+	color: var(--green);
+}
+.icons div:hover{
+	cursor: pointer;
+}
+#menu-bar{
+	display: none;
+}
+.home{
+	padding: 4rem 7%;
+	background-image: linear-gradient(472.34deg,white 50.54%, var(--green) 50.54%);
+	padding-top: 7%;
+}
+.main-home{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.home-left-content{
+	flex: 1 1 45 rem;
+}
+.inner-home-content{
+	padding: 0 1rem;
+}
+.inner-home-content h3{
+	font-family: 'Dancingscript', cursive;
+	font-size: 45px;
+	padding-bottom: 1rem;
+
+}
+.inner-home-content h1{
+	font-weight: 600px;
+	font-size: 60px;
+	padding-bottom: 1rem;
+}
+.inner-home-content h2{
+	font-weight: 600px;
+	font-size: 45px;
+	padding-bottom: 2.5rem;
+}
+.inner-home-content a{
+	padding: 1.5rem 2rem;
+	background: var(--green);
+	color: white;
+	font-size: 1.5rem;
+	border-radius: 15px;
+}
+.inner-home-content a:hover{
+	border-radius: 0;
+	background-color: #333;
+}
+.home-right-cntent{
+	flex: 1 1 45rem;
+}
+.home-right-content .home-image-content img{
+	width: 100%;
+	padding: 5rem;
+}
+
+.chose-food{
+	padding: 3rem 7%;
+	position: relative;
+}
+.chose-food h1{
+	font-size: 60px;
+	font-family: 'Dancing script',cursive;
+	color: #00a850;
+	align-items: center;
+}
+.chose-food h1 span{
+	color: #ff8e28;
+}
+.main-chose{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding: 2rem 0;
+}
+.inner-chose{
+	flex: 1 1 300px;
+	text-align: center;
+	background-color: var(--whitish);
+	padding: 4rem;
+	border: 1px solid var(--green);
+	border-radius: 15px;
+}
+.inner-chose:hover{
+	border-radius: 0;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+	            rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.inner-chose img{
+	width: 80%;
+	padding: 1rem 2rem;
+	height: 100%;
+}
+.inner-chose-content{
+	padding: 0 2rem;
+}
+.inner-chose-content h2{
+	color: #00a850;
+	font-size: 28px;
+	padding-bottom: 0.5rem;
+}
+.inner-chose-content p{
+	color: #333;
+	font-size: 1.5rem;
+	padding-bottom: 3rem;
+}
+.inner-chose-content a{
+	margin-top: 1rem;
+	padding: 1.5rem 2rem;
+	border: 1px solid var(--green);
+	color: var(--orange);
+	font-size: 1.5rem;
+	border-radius: 15px;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	display: inline-block;
+}
+.inner-chose-content a:hover{
+	color: white;
+}
+.inner-chose-content a:hover:before{
+	width: 100%;
+	left: 0;
+}
+.inner-chose-content a:brofore{
+	content: ' ';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	background: var(--green);
+	transition: 3s linear;
+	z-index: -1;
+}
+.chose-leaf img{
+	position: absolute;
+	right: 5rem;
+	width: 20px;
+}
+.chose-leaf.bottom img{
+	position: absolute;
+	left: 5rem;
+	width: 20px;
+}
+.gallery{
+	padding: 3rem 7%;
+	background-color: var(-=--whitish);
+}
+.gallery h1{
+	color: #00a850;
+	font-size: 50px;
+	font-family: 'dacing script',cursive;
+	text-align: center;
+}
+.gallery h1 span{
+	color: #ff8e28;
+}
+.main-gallery{
+	padding: 3rem 0;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	flex-wrap: wrap;	
+}
+
+.inner-gallery{
+	position: relative;
+	flex: 1 1 280px;
+	transition: 1s;
+}
+.gallery-img img{
+	width: 100%;
+	transition: 1s;
+}
+.gallery-img img:hover{
+	margin-top: -10px;
+}
+.gallery-icons{
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	opacity: 0;
+}
+.inner-gallery:hover .gallery-icons{
+	opacity: 1;
+}
+.gallery-icons div{
+	padding: 1rem;
+	background-color: var(--green);
+	color: white;
+	font-size: 18px;
+	margin: 0.5rem;
+	border: 1px solid white;
+	transition: 0.5s;
+}
+.gallery-icons div:hover{
+	background-color: white;
+	color: #00a850;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid var(--green);
+}
+
+
+.review{
+	padding: 3rem 7%;
+
+}
+.heading{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'dacning script', cursive;
+	color: #00a850;
+}
+.heading span{
+	color: var(--orange);
+}
+.review .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+.review .box-container .box{
+	text-align: center;
+	padding: 2rem;
+	border: 1rem solid #fff;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,0.3);
+	border-radius: .5rem;
+	flex: 1 1 30rem;
+	background: var(--green);
+	margin-top: 6rem;
+}
+.review .box-container .box img{
+	height: 12rem;
+	width: 12rem;
+	border-radius: 50%;
+	border: 1rem solid #fff;
+	margin-top: -8rem;
+	object-fit: cover;
+}
+.review .box-container .box h3{
+	font-size: 2.5rem;
+	color: white;
+	pacding: .5rem 0;
+}
+.review .box-container .box .star i{
+	font-size: 2rem;
+	color: var(--yellow);
+	padding: .5rem 0;
+}
+.review .box-container .box p{
+	font-size: 1.5rem;
+	color: #yellow;
+	padding: 1rem 0;
+}
+.Book-table{
+	padding: 3rem 7%;
+}
+.Book-table h1{
+	text-align: center;
+	font-size: 50px;
+	color: var(--orange);
+	font-family: 'dancing script',cursive;
+}
+.Book-table h1 span{
+	color: var(--yellow);
+}
+.main-table{
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+	flex-wrap: wrap;
+	padding-top: 3rem;
+}
+
+.right-content-table{
+	flex: 1 1 45rem;
+}
+.left-table-content{
+	flex: 1 1 45rem;
+}
+.left-table-content img{
+	width: 100%;
+}
+.right-content-table from{
+	width: 100%;
+	padding: 0 4rem;
+}
+.right-content-table from label{
+	font-size: 1.5rem;
+	padding: 2rem 0;
+	margin: 2rem 0;
+}
+.right-content-table from input{
+	border: 1px solid var(--green);
+	padding: 2rem;
+	width: 100%;
+	margin: 1rem 0;
+}
+.submit:hover{
+	cursor: pointer;
+}
+.footer{
+	background-image: url(images/footer.png);
+	width: 100%;
+	padding: 3rem 7%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.footer h1{
+	color: orangered;
+	background-color: var(--orange);
+	background: var(--greenother);
+	text-align: center;
+	font-size: 50px;
+	padding: 2rem 0;
+}
+.main-footer{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.inner-footer{
+	flex: 1 1 300px;
+	padding: 3rem;
+}
+.inner-footer h2{
+	color: white;
+	font-size: 22px;
+	padding: 1rem 0;
+}
+.inner-footer a
+{
+	color: white;
+	display: block;
+	align-items: center;
+	font-size: 18px;
+	margin: 1rem;
+	padding: 1rem;
+	transition: .5s;
+}
+.innner-footer a:hover{
+	margin-left: -10px;
+}
+
+
+@media (max-width:768px){
+	html{
+		font-size: 55%;
+	}
+	#menu-bar{
+		display: initial;
+	}
+	header{
+		padding: 2rem;
+	}
+	.navbar{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		hegiht: 100vh;
+		wdith: 30rem;
+		background: var(--green);
+		clip-path: polygon(0 0,100% 0,100% 0, 0 0);
+	}
+	.navbar .active{
+		clip-path: polygon(0 0,100% 0,100% 0, 0 0);
+	}
+	.navbar a{
+	color: white;
+	display: block;
+	margin: 1.5rem;
+	padding: 1.5rem;
+	background: #333;
+	border: 2px solid white;
+	border-radius: 15px;
+}
+.home-right-content .home-image-content img{
+	padding: 1rem;
+}
+.home-left-content{
+	padding-top: 7rem;
+}
+.inner-home-content{
+	padding: 0 0;
+	width: 100%;
+}
+.chose-leaf img{
+	position: absolute;
+	right: 5rem;
+	width: 20px;
+}
+.footer{
+	height: 100vh;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	widrth: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 10%;
+	border-bottom: 1px solid #000;
+	z-index: 10;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px 20px;
+	font-size: 900;
+	cursor: pointer;
+}
+nav .logo{
+	width: 220px;
+	cursor: pointer;
+}
+.nav-btn{
+	background: #000;
+	color: #fff;
+	font-size: 17px;
+	padding: 15px 25px;
+	border: 0;
+	outline: 0;
+	border-radius: 40px;
+	cursor: pointer;
+}
+
+.nav-btn image{
+	width: 16px;
+	margin-left: 8px;
+}
+.header{
+	width: 100%;
+	min-height: 100vh;
+	background: linear-gradient(#eefff9 0%,#ffccc1 10%,#decdbbff 100%);
+	padding: 0 10%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.header h1{
+	margin-top: 100px;
+	font-size: 13vw;
+	line-height: 10vw;
+}
+.btn-container{
+	margin: 20px 0;
+}
+
+.header button{
+	border: 0;
+	outline: 0;
+	display: inline-flex;
+	align-items: center;
+	font-size: 18px; 
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.btn-dark{
+	background: #000;
+	color: #fff;
+	padding: 10px 10px 10px 40px ;
+	border-radius: 40px;
+}
+
+.btn-dark img{
+	width: 40px;
+	background: #fff;
+	border-radius: 50%;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.btn-light{
+	background: transparent;
+	text-decoration: underline;
+}
+
+.btn-light img{
+	width: 20px;
+	margin-left: 10px;
+}
+
+.header p{
+	max-width: 360px;
+	font-weight: 600;
+}
+
+.user-img{
+	width: 80%;
+	max-width: 500px;
+	position: absolute;
+	right: 13%;
+	bottom: 0;
+}
+
+/*----- animation---*/
+
+.header h1 span{
+	background: linear-gradient(#000,#000);
+	background-repeat: on-repeat;
+	-webkit-text-fill-color: transparent;
+	-webkit-backgroung-clip: text;
+	background-size: 0%;
+}
+
+.header h1 span:frist-child{
+	animation: textcolor1 2s linear infinite alternate;
+}
+
+.header h1 span:last-child{
+	animation: textcolor2 2s linear infinite altern
+}
+
+@keyframes textcolor1{
+	0%{
+		backgroung-size: 0%;
+	}
+	40%{
+		backgroung-size: 100%;
+	}
+	100%{
+		backgroung-size: 100%;
+	}
+}
+
+@keyframes textcolor2{
+	0%{
+		backgroung-size: 0%;
+	}
+	40%{
+		backgroung-size: 0%;
+	}
+	100%{
+		backgroung-size: 100%;
+	}
+}
+
+.menu-icon{
+	display: none;
+}
+
+/*--- media Queries for navbar ---*/
+
+@media only screen(max-width: 600px){
+	navbar ul{
+		position: absolute;
+		width: 100%;
+		background: #000;
+		color: #fff;
+		left: 0;
+		top: 100%;
+		align-item: center;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.5s;
+	}
+	.nav-btn{
+		display: none;
+	}
+	nav .logo{
+		width: 150px;
+	}
+	nav ul li{
+		margin: 10px;
+		font-size: 12px;
+	}
+	.menu-icon{
+	display: block;
+	width: 30px;
+	}
+	.show-menu{
+	max-height: 70px;
+	}
+}
+
+/*---media queries for header concent ---*/
+
+@media only screen and(max-width: 600px){
+	.header{
+		min-height: auto;
+		padding: 0;
+	}
+	.user-img{
+        width: 100%;
+        right: auto;
+        position: relative;
+        margin-top: 100px;
+	}
+	.header-content{
+		position: absolute;
+		padding: 0 10px;
+		z-index: 2;
+		padding-bottom: 40px;
+		background: linear-gradient(transparent,#fff);
+	}
+	.btn-container{
+		margin: 5px 0;
+	}
+	.header button{
+		font-size: 14px;
+		margin-right: 10px;
+	}
+	.btn-drak{
+		padding: 7px 7px 7px 20px;
+		margin-bottom: 10px;
+	}
+	.btn-drak img{
+		width: 30px;
+		padding: 5px;
+		margin-left: 15px;
+	}
+	.btn-light img{
+		width: 12px;
+		margin-left: 5px;
+	}
+	.header h1{
+		font-size: 70px;
+		line-height: 60px;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

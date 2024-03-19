@@ -1,0 +1,562 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"message",
+				"MESSAGES"
+			],
+			[
+				"sub",
+				"SUBSCRIBERS"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"g",
+				"grid-template-columns"
+			],
+			[
+				"fl",
+				"flex-direction"
+			],
+			[
+				"gri",
+				"grid-template-columns"
+			],
+			[
+				"grid",
+				"grid-template-columns"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"bos",
+				"box-sizing"
+			],
+			[
+				"ro",
+				"royalblue"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"alit",
+				"align-items"
+			],
+			[
+				"or",
+				"cornflowerblue"
+			],
+			[
+				"right",
+				"right-column"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-block"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ri",
+				"right-column"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"input",
+				"inputValue"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"sp",
+				"span"
+			],
+			[
+				"inpu",
+				"input-field"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"htm",
+				"html\thtml"
+			],
+			[
+				"--",
+				"--orange"
+			],
+			[
+				"--gr",
+				"--greenother"
+			],
+			[
+				"l",
+				"label"
+			],
+			[
+				"background-o",
+				"background-position"
+			],
+			[
+				"chose",
+				"chose-leaf"
+			],
+			[
+				"inner-",
+				"inner-home-content"
+			],
+			[
+				"hom",
+				"home-left-content"
+			],
+			[
+				"c",
+				"clip-path"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"re",
+				"review"
+			],
+			[
+				"inner",
+				"inner-gallery"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"tr",
+				"transition"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"fa-",
+				"fa-eye"
+			],
+			[
+				"conf",
+				"configure-clockwise"
+			],
+			[
+				"yellow",
+				"greenyellow"
+			],
+			[
+				"bott",
+				"scroll-margin-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Bookmarks: Select All"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 227.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/santhosh reddy/Desktop/msd/respones food website/vasudha reddy",
+		"/C/Users/santhosh reddy/Desktop/msd/google medial/node.js",
+		"/C/Users/santhosh reddy/Desktop/msd/google medial/ramesh.css",
+		"/C/Users/santhosh reddy/Desktop/msd/google medial/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh js/hello.js",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh js/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh js/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh js/js.html",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh js/js.htm;l",
+		"/C/Users/santhosh reddy/Desktop/msd/profile website/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/deepthi reddy/vasuda.html",
+		"/C/Users/santhosh reddy/Desktop/msd/htole/hello.css",
+		"/C/Users/santhosh reddy/Desktop/msd/htole/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/htole/main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/htole/f628abe7555c5c34646834d00e2cfcb139257f7c.htm",
+		"/C/Users/santhosh reddy/Desktop/msd/wheater app/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/wheater app/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/website login and register/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/website login and register/copy.css",
+		"/C/Users/santhosh reddy/Desktop/msd/TIMER OFFER/github.css",
+		"/C/Users/santhosh reddy/Desktop/msd/TIMER OFFER/timer.html",
+		"/C/Users/santhosh reddy/Desktop/msd/time colck/main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/time colck/time.html",
+		"/C/Users/santhosh reddy/Desktop/msd/time colck/time.css",
+		"/C/Users/santhosh reddy/Desktop/msd/Tea House Website/js.main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/Tea House Website/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/Tea House Website/hello.css",
+		"/C/Users/santhosh reddy/Desktop/msd/pizza/pizza.html",
+		"/C/Users/santhosh reddy/Desktop/msd/pizza/sun.css",
+		"/C/Users/santhosh reddy/Desktop/msd/our gallery/index.htm",
+		"/C/Users/santhosh reddy/Desktop/msd/our gallery/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/our gallery/main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/create login/long.css",
+		"/C/Users/santhosh reddy/Desktop/msd/create login/login.html",
+		"/C/Users/santhosh reddy/Desktop/msd/change letters/hello.css",
+		"/C/Users/santhosh reddy/Desktop/msd/change letters/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/card hover/card.html",
+		"/C/Users/santhosh reddy/Desktop/msd/card hover/card.css",
+		"/C/Users/santhosh reddy/Desktop/msd/calendar/santhosh.html",
+		"/C/Users/santhosh reddy/Desktop/msd/calendar/style.css",
+		"/C/Users/santhosh reddy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/santhosh reddy/Desktop/msd/number games gusse/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/beauty/index.js",
+		"/C/Users/santhosh reddy/Desktop/msd/beauty/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/beauty/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/number games gusse/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/number games gusse/hello.js",
+		"/C/Users/santhosh reddy/Desktop/msd/square roatets/square.html",
+		"/C/Users/santhosh reddy/Desktop/msd/number games gusse/script.js",
+		"/C/Users/santhosh reddy/Desktop/msd/java script/java script",
+		"/C/Users/santhosh reddy/Documents/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/good coffe/note.css",
+		"/C/Users/santhosh reddy/Desktop/msd/modern website/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/modern website/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/wheater app/wheater.js",
+		"/C/Users/santhosh reddy/Desktop/msd/bala stop watch/stop.css",
+		"/C/Users/santhosh reddy/Desktop/msd/bala stop watch/mainhello.js",
+		"/C/Users/santhosh reddy/Desktop/msd/bala stop watch/hello.html",
+		"/C/Users/santhosh reddy/Desktop/msd/arjun reddy/download (2).jpeg",
+		"/C/Users/santhosh reddy/Desktop/msd/arjun reddy/download (1).jpeg",
+		"/C/Users/santhosh reddy/Desktop/msd/good coffe/goodcoffe.html",
+		"/C/Users/santhosh reddy/Desktop/msd/Build A Food Recipe App/script.js",
+		"/C/Users/santhosh reddy/Desktop/msd/Build A Food Recipe App/build food.css",
+		"/C/Users/santhosh reddy/Desktop/msd/Build A Food Recipe App/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/Tea House Website/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/create websit/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/create websit/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/create websit/main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/beauty/kajala2.jpeg",
+		"/C/Users/santhosh reddy/Documents/copy.css",
+		"/C/Users/santhosh reddy/Desktop/msd/salon beatuy/hello.css",
+		"/C/Users/santhosh reddy/Desktop/msd/pizza/script.js",
+		"/C/Users/santhosh reddy/Desktop/msd/TO-DO LIST/js main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/TO-DO LIST/to-do list.html",
+		"/C/Users/santhosh reddy/Desktop/msd/TO-DO LIST/to-do-list.css",
+		"/C/Users/santhosh reddy/Desktop/msd/arjun reddy/dog.css",
+		"/C/Users/santhosh reddy/Desktop/msd/arjun reddy/arjun.html",
+		"/C/Users/santhosh reddy/Desktop/msd/games to rock/java script.js",
+		"/C/Users/santhosh reddy/Desktop/msd/games to rock/game.html",
+		"/C/Users/santhosh reddy/Desktop/msd/games to rock/game.css",
+		"/C/Users/santhosh reddy/Desktop/msd/change letters/css.style",
+		"/C/Users/santhosh reddy/Desktop/msd/email.html/email.js",
+		"/C/Users/santhosh reddy/Desktop/msd/email.html/email.css",
+		"/C/Users/santhosh reddy/Desktop/msd/email.html/eamil.html",
+		"/C/Users/santhosh reddy/Desktop/msd/poppup/duck.html",
+		"/C/Users/santhosh reddy/Desktop/msd/Build A Food Recipe App/surya.html",
+		"/C/Users/santhosh reddy/Desktop/msd/poppup/popup.css",
+		"/C/Users/santhosh reddy/Desktop/msd/music move/music.html",
+		"/C/Users/santhosh reddy/Desktop/msd/miniproject/min.html",
+		"/C/Users/santhosh reddy/Desktop/msd/miniproject/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/book page/note.css",
+		"/C/Users/santhosh reddy/Desktop/msd/book page/note.html",
+		"/C/Users/santhosh reddy/Desktop/msd/Drag & Drop/drop.html",
+		"/C/Users/santhosh reddy/Desktop/msd/gold stop wtach/aa.html",
+		"/C/Users/santhosh reddy/Desktop/msd/book page/scriptmain.js",
+		"/C/Users/santhosh reddy/Desktop/msd/Drag & Drop/scriptmain.js",
+		"/C/Users/santhosh reddy/Desktop/msd/Drag & Drop/green.css",
+		"/C/Users/santhosh reddy/Desktop/msd/gold stop wtach/good.css",
+		"/C/Users/santhosh reddy/Desktop/msd/stop watch/naayak.html",
+		"/C/Users/santhosh reddy/Desktop/msd/stop watch/naayak.css",
+		"/C/Users/santhosh reddy/Desktop/msd/stop watch/emailotp.js",
+		"/C/Users/santhosh reddy/Desktop/msd/education/hello.css",
+		"/C/Users/santhosh reddy/Desktop/msd/education/index.html",
+		"/C/Users/santhosh reddy/Desktop/msd/education/main.js",
+		"/C/Users/santhosh reddy/Desktop/msd/pizza/style.css",
+		"/C/Users/santhosh reddy/Documents/book.css",
+		"/C/Users/santhosh reddy/Desktop/msd/hellowrold/poppup.html",
+		"/C/Users/santhosh reddy/Desktop/msd/hellowrold/book.style",
+		"/C/Users/santhosh reddy/Desktop/msd/hellowrold/good.style",
+		"/C/Users/santhosh reddy/Desktop/msd/hellowrold/saycss.styel",
+		"/C/Users/santhosh reddy/Desktop/msd/hellowrold/hunk.css",
+		"/C/Users/santhosh reddy/Desktop/msd/css.style",
+		"/C/Users/santhosh reddy/Desktop/msd/change letters/index.css",
+		"/C/Users/santhosh reddy/Desktop/msd/index.html",
+		"/C/Users/santhosh reddy/Pictures/japg.008/photo-1610552050890-fe99536c2615.avif",
+		"/C/Users/santhosh reddy/Desktop/msd/education/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/cricle/cricle.html",
+		"/C/Users/santhosh reddy/Desktop/msd/cricle",
+		"/C/Users/santhosh reddy/Desktop/msd/textstyle.css",
+		"/C/Users/santhosh reddy/Desktop/coffe web site/headphones-smartphonemelody-note-float-aroundon-260nw-1695134416.webp",
+		"/C/Users/santhosh reddy/Desktop/msd/surya/santhosh.js",
+		"/C/Users/santhosh reddy/Desktop/msd/surya/style.css",
+		"/C/Users/santhosh reddy/Desktop/msd/surya/surya.html",
+		"/C/Users/santhosh reddy/Desktop/msd/surya/js.main",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh/weather.html",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh/app.css",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh/hello.html",
+		"/C/Users/santhosh reddy/Desktop/msd/santhosh/weather.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 142.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 48.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 180.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 705.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1366.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

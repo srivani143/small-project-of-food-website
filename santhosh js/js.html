@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js courser</title>
+
+	<style>
+		div{
+			height: 200px;
+			line-height: 200px;
+			color: blue;
+			text-align: center;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+	</style>
+
+
+</head>
+<body>
+	<div onclick="changeColor(this)"style="background-color: orange;">hello guys change my color !</div>
+
+	<script>
+		function changeColor(element){
+			const currentColor = element.style.backgroundColor;
+			if (currentColor == "orange") {
+				element.style.backgroundColor = "green";
+
+			}else{
+				element.style.backgroundColor = "orange";
+			}
+		}
+	</script>
+</body>
+</html>

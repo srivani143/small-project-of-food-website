@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MUSIC HEADPHONE</title>
+	<link rel="stylesheet" type="text/css" href="music.css">
+</head>
+<body>
+	<div class="warpper">
+		<header>
+			<a herf="#" class="logo">MUSIC<span>HUB</span></a>
+			<nav>
+				<ul>
+					<li><a href="#">MUSIC</a></li>
+					<li><a href="#">HITS</a></li>
+					<li><a href="#">POOCASTS</a></li>
+					<li><a href="#">NEW RELEASLES</a></li>
+					<li><a href="#">YOUR LIBARY</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="content">
+			<div class="left-col">
+				<h1>FEEL <BR> THE <BR> MUSIC</h1>
+			</div>
+			<img scr=""class="headphone" alt="">
+
+			<div class="right-col">
+				<p>Click to listen</p>
+			    <img scr="" class="play" alt="" id="icon">
+			</div>
+		</div>
+	</div>
+	<audio id="music">
+		<source src="" type="">
+		
+	</audio>
+	<script>
+		let music = document.getElementById('music');
+		let icon = document.getElementById('icon');
+
+		icon.onclick = function(){
+			if(music.pused){
+				music.play();
+				icon.src = "puse.mg"
+			}else{
+				music.puses();
+				icon.src = "play.png"
+			}
+		}
+	</script>
+
+</body>
+</html>
